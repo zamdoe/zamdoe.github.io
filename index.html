@@ -1,11 +1,105 @@
 <!DOCTYPE html>
 <html>
 
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My First Webpage</title>
+    <meta name="description" content="An example web page built in Web Skills class">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<style>
+    body {
+        background-color: #4A547F;
+        font-family: Garamond, Georgia, serif;
+    }
+    
+    #container {
+        background-color: #b4b4b4;
+        padding: 10px;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px dotted black;
+    }
+    
+    h1 {
+        font-size: 60px;
+        text-align: center;
+        margin: 0;
+    }
+    
+    h2 {
+        text-align: center;
+        margin-top: 0;
+    }
+    
+    ul {
+        text-align: center;
+        background-color: #939CBF;
+        padding: 10px;
+    }
+    
+    li {
+        display: inline;
+        padding: 10px;
+    }
+    
+    li:hover {
+        background-color: rgb(247, 138, 138);
+        cursor: pointer;
+    }
+    
+    .quote {
+        margin: 30px;
+        font-style: italic;
+        font-family: Helvetica, Arial, serif;
+        line-height: 20px;
+        color: #7a7a7a;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+</style>
+
 <body>
-
-    <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
-
+    <div id="container">
+        <header>
+            <h1>Zawadi Mdoe</h1>
+            <h2>My personal web page</h2>
+        </header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Projects</li>
+                <li>Publications</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <article>
+            <h2>Photos from my last vacation</h2>
+            <img src="https://www.crushpixel.com/big-static18/preview4/amazing-touristic-travel-destination-lucerne-2937223.jpg" alt="Flower">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </article>
+        <article>
+            <h2>Photos from my last vacation</h2>
+            <img id="flower" src="https://images.hindustantimes.com/img/2021/08/26/550x309/jovyn-chamb-iWMfiInivp4-unsplash_1628163212934_1629977072883.jpg" alt="Flower">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </article>
+    </div>
 </body>
 
 </html>
